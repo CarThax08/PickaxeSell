@@ -1,0 +1,11 @@
+name: PickaxeSell
+version: ${project.version}
+main: com.github.carthax08.pickaxesell.PickaxeSell
+depend: [ QuickSell ]
+authors: [ CarThax08 ]
+description: Right click your pickaxe to sell!
+commands:
+  psver:
+    description: Get the version for PickaxeSell
+    usage: /psver
+    permission: pickaxesell.admin
